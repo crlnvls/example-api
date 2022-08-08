@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "dev": "echo 'Nothing here yet.'"
+    "dev": "nodemon -L index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "nodemon": "*"
   }
 }
